@@ -1,23 +1,25 @@
+/* stylelint-disable indentation */
+/* stylelint-disable declaration-empty-line-before */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 
-body{
+body {
   position: relative;
   width: 375px;
   height: 5410px;
-
-  background: #FFFFFF;
+  background: #fff;
 }
 
-/*for header section*/
+/* for header section */
 
-.header{
+.header {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0%;
+  top: 0%;
 }
 
-.logo{
+.logo {
   width: 76px;
   height: 20px;
 
@@ -30,13 +32,12 @@ body{
   display: flex;
   align-items: center;
   text-align: center;
-
+  /* stylelint-disable-next-line color-hex-case */
   color: #6070FF;
-
   margin-left: 5%;
 }
 
-.menu{
+.menu {
   position: absolute;
   width: 18px;
   height: 12px;
@@ -44,10 +45,9 @@ body{
   top: 6px;
 }
 
-.welcome{
+.welcome {
   width: 327px;
   height: 150px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -58,15 +58,15 @@ body{
   align-items: center;
   margin-left: 5%;
 
-  color: #172B4D;
+  color: hsl(218, 54%, 20%);
 
-  padding-top:30%;
+  padding-top: 30%;
   text-align: justify;
 }
 
-.info{
-    width: 327px;
-    height: 146px;
+.info {
+  width: 327px;
+  height: 146px;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -84,18 +84,15 @@ body{
   text-align: left;
 }
 
-.intro{
-    background: url(img/header-shapes\ mobile.png);
+.intro {
+  background: url(img/header-shapes\ mobile.png);
 }
 
 .connect {
   font-family: 'Poppins';
   font-style: normal;
-    
-  color: #7F8CFF;
+  color: hsl(234, 100%, 75%);
   display: flex;
-     
-  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 
@@ -103,13 +100,12 @@ body{
   margin-top: 0%;
 }
 
-.icons{
-  display: flex;  
+.icons {
+  display: flex;
   width: 170.17px;
   height: 20px;
 }
 
-.icons div img{
-  margin-left: 1rem;  
+.icons div img {
+  margin-left: 1rem;
 }
-
