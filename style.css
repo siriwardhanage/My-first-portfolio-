@@ -1,17 +1,115 @@
-.header{
-    background-image: linear-gradient(#ffffff),url(img/header-background-mobile.png);
+
+body{
+    /* Template 1-Mobile-Main */
+
+
+position: relative;
+width: 375px;
+height: 5410px;
+
+/* Neutrals/N10 */
+
+background: #FFFFFF;
+   /* flex: none;
+order: 0;
+flex-grow: 0;  */
 }
+
+.header{
+  /* header-background-mobile */
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+  
+}
+
+.logo{
+width: 76px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6070FF;
+}
+
+.menu{
+position: absolute;
+width: 18px;
+height: 12px;
+left: 320px;
+top: 6px;
+}
+
+.welcome{
+
+width: 327px;
+height: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+display: flex;
+align-items: center;
+margin-left: 2%;
+
+color: #172B4D;
+
+padding-top:15%;
+}
+
+.info{
+    /*
+width: 327px;
+height: 146px;
+*/
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #344563;
+
+display: flex;
+ padding-top: 5%;
+
+}
+
+.intro{
+    background: url(img/header-shapes\ mobile.png);
+}
+
+.connect {
+
+    width: 110px;
+    height: 22px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+   /* font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;*/
+    
+    color: #7F8CFF;
+
+    display: flex;
+flex-direction: row;
+}
+
 .icons{
     display: flex;  
 }
 
-#el1{
-    position: absolute;
-width: 24.14px;
-height: 12.07px;
-left: 341.76px;
-top: 546.69px;
-
-background: #6070FF;
-transform: rotate(-176.08deg);
-}
