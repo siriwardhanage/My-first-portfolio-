@@ -1,91 +1,87 @@
 
 body{
-    /* Template 1-Mobile-Main */
+  position: relative;
+  width: 375px;
+  height: 5410px;
 
-
-position: relative;
-width: 375px;
-height: 5410px;
-
-/* Neutrals/N10 */
-
-background: #FFFFFF;
-   /* flex: none;
-order: 0;
-flex-grow: 0;  */
+  background: #FFFFFF;
 }
 
+/*for header section*/
+
 .header{
-  /* header-background-mobile */
   position: absolute;
   width: 375px;
   height: 718px;
   left: 0px;
   top: 0px;
-  
 }
 
 .logo{
-width: 76px;
-height: 20px;
+  width: 76px;
+  height: 20px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 
-display: flex;
-align-items: center;
-text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #6070FF;
+  color: #6070FF;
+
+  margin-left: 5%;
 }
 
 .menu{
-position: absolute;
-width: 18px;
-height: 12px;
-left: 320px;
-top: 6px;
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 320px;
+  top: 6px;
 }
 
 .welcome{
+  width: 327px;
+  height: 150px;
 
-width: 327px;
-height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
 
-display: flex;
-align-items: center;
-margin-left: 2%;
+  color: #172B4D;
 
-color: #172B4D;
-
-padding-top:30%;
+  padding-top:30%;
+  text-align: justify;
 }
 
 .info{
-    /*
-width: 327px;
-height: 146px;
-*/
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+    width: 327px;
+    height: 146px;
 
-color: #344563;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
-display: flex;
- padding-top: 3%;
+  color: #344563;
 
+  display: flex;
+  padding-top: 2%;
+  align-items: center;
+  margin-left: 5%;
+
+  text-align: left;
 }
 
 .intro{
@@ -93,28 +89,27 @@ display: flex;
 }
 
 .connect {
+  font-family: 'Poppins';
+  font-style: normal;
     
-    font-family: 'Poppins';
-    font-style: normal;
+  color: #7F8CFF;
+  display: flex;
+     
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
-    
-    color: #7F8CFF;
-    display: flex;
-
-
+  margin-left: 5%;
+  margin-top: 0%;
 }
 
 .icons{
-    display: flex;  
-    width: 170.17px;
-height: 20px;
-
-
-
-
+  display: flex;  
+  width: 170.17px;
+  height: 20px;
 }
 
 .icons div img{
-  margin-left: 1rem;
+  margin-left: 1rem;  
 }
 
