@@ -1,17 +1,114 @@
-.header{
-    background-image: linear-gradient(#ffffff),url(img/header-background-mobile.png);
-}
-.icons{
-    display: flex;  
+/* stylelint-disable indentation */
+/* stylelint-disable declaration-empty-line-before */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+body {
+  position: relative;
+  width: 375px;
+  height: 5410px;
+  background: #fff;
 }
 
-#el1{
-    position: absolute;
-width: 24.14px;
-height: 12.07px;
-left: 341.76px;
-top: 546.69px;
+/* for header section */
 
-background: #6070FF;
-transform: rotate(-176.08deg);
+header {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0%;
+  top: 0%;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* stylelint-disable-next-line color-hex-case */
+  color: #6070FF;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.menu {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 320px;
+  top: 6px;
+}
+
+.welcome {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+
+  color: hsl(218, 54%, 20%);
+
+  padding-top: 30%;
+  text-align: justify;
+}
+
+.info {
+  width: 327px;
+  height: 146px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #344563;
+
+  display: flex;
+  padding-top: 6%;
+  align-items: center;
+  margin-left: 5%;
+
+  text-align: left;
+}
+
+.intro {
+  background: url(img/header-shapes\ mobile.png);
+}
+
+.connect {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: hsl(234, 100%, 75%);
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-left: 5%;
+  margin-top: 0%;
+}
+
+.icons ul {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  list-style-type: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+
+.icons li {
+  margin-left: 1rem;
 }
