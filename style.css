@@ -28,7 +28,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
- 
   display: flex;
   align-items: center;
   text-align: center;
@@ -113,8 +112,3 @@ body {
 .icons li {
   margin-left: 1rem;
 }
-/*
-.icons {
-  align-items: left;
-  text-align: left;
-}*/
