@@ -28,13 +28,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-
+ 
   display: flex;
   align-items: center;
   text-align: center;
   /* stylelint-disable-next-line color-hex-case */
   color: #6070FF;
   margin-left: 5%;
+  text-decoration: none;
 }
 
 .menu {
@@ -100,12 +101,20 @@ body {
   margin-top: 0%;
 }
 
-.icons {
+.icons ul {
   display: flex;
   width: 170.17px;
   height: 20px;
+  list-style-type: none;
+  padding-left: 0%;
+  margin-top: 0%;
 }
 
-.icons div img {
+.icons li {
   margin-left: 1rem;
 }
+/*
+.icons {
+  align-items: left;
+  text-align: left;
+}*/
